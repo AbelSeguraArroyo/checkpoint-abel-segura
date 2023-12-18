@@ -1,0 +1,164 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    header{
+        background-image: url(../images/redes-neuronales.png);
+    }
+    
+    h1 {
+        color: white;
+        padding: 30px;
+    }
+
+    .navegador a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navegador {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+    main{
+        background-color: #ccc;
+        color: rgb(97, 97, 97);
+    }
+    main img{
+        width: 200px;
+    }
+    main h2{
+        color: rgb(71, 71, 71);
+    }
+
+    .section-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-about h2{
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .section-about p{
+        margin-bottom: 20px;
+        max-width: 85%;
+    }
+
+    .section-articles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contenedor-cuadros article img{
+        width: 100%;
+        height: 180px;
+        display: block;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+
+    .contenedor-cuadros {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      .contenedor-cuadros article {
+        width: 30%;
+        margin: 10px;
+        text-align: center;
+        width: 300px;
+        height: 350px;
+      }
+      article h3{
+        text-align: left;
+        padding: 15px;
+      }
+      article a{
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+        margin-left: 100px;
+      }
+    
+      main article{
+        border: 1px solid rgb(143, 143, 143);
+        border-radius: 25px;
+      }
+
+      .section-aplications{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .section-aplications h2{
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+      
+      .section-table{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .section-table h2{
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+      
+      .table{
+        border-collapse: collapse;
+        margin: 20px;
+      }
+      .table th{
+        border: 1px solid rgb(56, 56, 56);
+        padding: 3px;
+        
+      }
+      .table td{
+        border: 1px solid rgb(56, 56, 56);
+        padding: 3px;
+      }
+
+    footer{
+     background-color: #4caf50;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;   
+     color: white;
+    }
+    
+    footer h4{
+        padding: 10px;
+    }
+
+    .contenedor-form{
+        padding: 10px;
+    }
+    
+    .contenedor-contact{
+        display: flex;
+        align-items: center;
+    }
+
